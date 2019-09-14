@@ -127,9 +127,62 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+      
 }
 
+/* ///////////////ABOUT PAGE///////////// */
+.top-about-section {
+    display: inline-block;
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    
+}
+
+.about-sections .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;
+}
+
+.text-container button {
+    border: 2px solid black;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.text-container button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.about-sections .text-container h2 {
+    margin-top: .80em;
+    font-weight: bold;
+}
+
+.about-sections .text-container p {
+    padding: 10px 0;
+}
+
+.bottom-about {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+/* ////////////////////////////////////// */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
