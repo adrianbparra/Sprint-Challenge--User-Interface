@@ -65,6 +65,51 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/*/////////////////////////////////////////////////
+//////////////NAV///////////////////////////////
+//////////////////////////////////////////////// */
+.nav {
+    width: 800px;
+    /* vertical-align: baseline; */
+    margin: 22px auto;
+    display: flex;
+    align-items: baseline;
+    
+    
+}
+
+.nav .links {
+    width: 640px;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: bottom;
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+.links a:visited {
+    color: inherit;
+}
+
+.links a:hover {
+    opacity: .5;
+}
+
+.jumbo-img {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.jumbo-about-img {
+    width: 800px;
+    margin: 0 auto;
+    padding: 17px 0;
+}
 
 .container {
     width: 800px;
@@ -82,8 +127,10 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+      
 }
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -143,4 +190,98 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ///////////////ABOUT PAGE///////////// */
+.top-about-section {
+    display: inline-block;
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    
+}
+
+.about-sections .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+    border-bottom: 1px dashed black;
+}
+
+.text-container button {
+    border: 2px solid black;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.text-container button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.about-sections .text-container h2 {
+    margin-top: .80em;
+    font-weight: bold;
+}
+
+.about-sections .text-container p {
+    padding: 10px 0;
+}
+
+.bottom-about {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+/* ////////////////////////////////////// */
+
+/* //////////////Contact//////////////////// */
+
+.contact-page {
+    padding: 20px 0;
+    margin: 20px auto;
+    border-bottom: 1px dashed black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 80%
+}
+
+.form input {
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+.form textarea {
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+.form .submit {
+    width: 20%;
+    border: 2px solid black;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.form .submit:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
