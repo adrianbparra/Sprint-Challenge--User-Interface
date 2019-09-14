@@ -250,14 +250,38 @@ footer nav a {
 .contact-page {
     padding: 20px 0;
     margin: 20px auto;
+    border-bottom: 1px dashed black;
 }
 
 .form {
-    border-top: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 80%
 }
 
-.contact-page input {
-    margin: 20px;
-    width: 80%;
-    margin: 0 auto;
+.form input {
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+.form textarea {
+    margin: 10px 0;
+    border: 2px solid black;
+}
+
+.form .submit {
+    width: 20%;
+    border: 2px solid black;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.form .submit:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
