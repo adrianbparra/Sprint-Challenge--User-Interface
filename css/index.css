@@ -65,6 +65,51 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/*/////////////////////////////////////////////////
+//////////////NAV///////////////////////////////
+//////////////////////////////////////////////// */
+.nav {
+    width: 800px;
+    /* vertical-align: baseline; */
+    margin: 22px auto;
+    display: flex;
+    align-items: baseline;
+    
+    
+}
+
+.nav .links {
+    width: 640px;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: bottom;
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+.links a:visited {
+    color: inherit;
+}
+
+.links a:hover {
+    opacity: .5;
+}
+
+.jumbo-img {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.jumbo-about-img {
+    width: 800px;
+    margin: 0 auto;
+    padding: 17px 0;
+}
 
 .container {
     width: 800px;
@@ -112,6 +157,39 @@ p {
     justify-content: center;
 }
 
+/* /////////////////////////////////////////////
+////////////////BOX COLORS///////////////////
+//////////////////////////////////////////// */
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+
+}
+#box4 {
+
+}
+#box5 {
+
+}
+#box6 {
+
+}
+#box7 {
+
+}
+#box8 {
+
+}
+#box9 {
+
+}
+#box10 {
+
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
